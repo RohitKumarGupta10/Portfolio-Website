@@ -96,15 +96,26 @@
     font-size: 2.5rem;
   }  
   .skills-images {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .skills-images img {
-    height: 230px; 
-    width: auto;
-    margin: 1 9px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skills-images img {
+  height: 150px;
+  width: auto;
+  margin: 0 10px;
+}
+
+
   
   .projects {
     padding: 3rem 0;
